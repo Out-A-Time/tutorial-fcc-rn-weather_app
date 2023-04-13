@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     borderWidth: 10,
     flex: 1,
     flexDirection: "column",
-    padding: 20,
+    padding: 30,
   },
   containerUp: {
     backgroundColor: "green",
