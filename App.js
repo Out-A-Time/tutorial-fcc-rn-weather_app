@@ -1,12 +1,14 @@
 import { View, Text, SafeAreaView, StyleSheet } from "react-native";
 import CurrentWeather from "./src/components/CurrentWeather";
+import UpcomingWeather from "./src/components/UpcomingWeather";
 
 import React from "react";
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <CurrentWeather />
+      {/* <CurrentWeather /> */}
+      <UpcomingWeather />
     </View>
   );
 };
